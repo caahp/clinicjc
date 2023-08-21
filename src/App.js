@@ -15,12 +15,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Josy Carvalho Clínica de Estética
         </a>
       </header>
     </div>
   );
 }
-//TESTANDO
 
 export default App;
