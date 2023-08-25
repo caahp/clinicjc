@@ -1,7 +1,12 @@
 
 .logo {
     display: flex;
-    width: 100px;
-    height: 100px; 
+    width: 115px;
+    height: 115px; 
+    color: #ffffff;
   }
-  
+
+.logo-img {
+  margin-right: 10px;
+  margin-left: 20px;
+}
