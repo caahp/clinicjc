@@ -9,27 +9,3 @@
     display: flex;
     justify-content: center;
   }
-
-  .opcoes {
-    display: flex;
-    margin-left: 600px;
-  }
-  
-  .opcao {
-    color: #fff8c6;
-    font-size: 19px;
-    font-family: 'Comic Sans MS', sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100%;
-    padding: 0 10px;
-    cursor: pointer;
-    min-width: 120px;
-  }
-  
-  li {
-    list-style: none;
-  }

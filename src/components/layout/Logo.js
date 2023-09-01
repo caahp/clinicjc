@@ -1,5 +1,5 @@
 import logo from '../img/jclogo.png';
-import '../style/Navbar.css';
+import '../style/Logo.css';
 
 function Logo() {
     return ( 
