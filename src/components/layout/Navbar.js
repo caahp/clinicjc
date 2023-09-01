@@ -7,7 +7,6 @@ function Logo() {
         <img src={logo} 
         alt = 'logo'
         className = 'logo-img'></img>
-        {/* <p><strong>Clínica de Estética</strong></p> */}
     </div>
     );
 }
