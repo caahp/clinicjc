@@ -1,14 +1,10 @@
 import './App.css';
-import Logo from './components/layout/Logo/Logo';
-import Header from './components/layout/Header/Header';
+import Navbar from './components/layout/Navbar/Navbar'
 
 function App() {
   return (
     <div className='App'>
-      <header className = 'App-header'>
-      <Logo></Logo>
-      <Header></Header>
-      </header>
+      <Navbar/>
     </div>
     
   );
