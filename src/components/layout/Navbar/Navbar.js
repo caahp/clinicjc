@@ -1,4 +1,4 @@
-import './Navbar.css'
+import './Navbar.module.css'
 import Logo from '../Logo/Logo';
 import Header from '../Header/Header';
 

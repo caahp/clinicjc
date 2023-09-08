@@ -1,4 +1,4 @@
-import './Header.css';
+import './Header.module.css';
 
 const textoOpcoes = ['Home', 'Procedimentos ⇩', 'Contato']
 
