@@ -1,5 +1,6 @@
 import Navbar from './components/layout/Navbar/Navbar'
 import styled from 'styled-components'
+import Screen from './components/layout/Screen/Screen';
 
 const AppContainer = styled.div`
   width: 100vw;
@@ -17,6 +18,7 @@ function App() {
   return (
     <AppContainer>
       <Navbar />
+      <Screen/>
     </AppContainer>
   );
 }

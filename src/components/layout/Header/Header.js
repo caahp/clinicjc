@@ -1,6 +1,6 @@
 import './Header.css';
 
-const textoOpcoes = ['Home', 'Procedimentos ⇩', 'Contato']
+const textoOpcoes = ['HOME', 'PROCEDIMENTOS ⇩', 'CONTATO']
 
 function Header() {
     return(

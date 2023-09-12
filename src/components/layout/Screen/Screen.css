@@ -1,0 +1,40 @@
+.screen{
+    background: url(https://belleviebiomedicina.com.br/wp-content/uploads/2022/02/bellevie-com-mais-de-quarenta-tratamentos-faciais-e-corporais.jpg) repeat-y 39% / cover!important;
+    background-image: url(https://belleviebiomedicina.com.br/wp-content/uploads/2022/02/bellevie-com-mais-de-quarenta-tratamentos-faciais-e-corporais.jpg) !important;
+    background-position-x: 39% !important;
+    background-position-y: center !important;
+    background-size: cover !important;
+    /* background-repeat-x: no-repeat !important;
+    background-repeat-y: repeat !important; */
+    background-attachment: initial !important;
+    background-origin: initial !important;
+    background-clip: initial !important;
+    background-color: initial !important;
+    height: 550px;
+    margin: 0px;
+}
+
+
+.text {
+    font-size: 20px;
+    /* ajustar espaçamento entre header */
+    margin-left: 40px;
+    padding: 100px 0px 0px 0px;
+    padding-left: 3rem!important;
+    border-left-width: 8px!important;
+}
+
+.text h1 {
+    margin-top: 0px;
+    color: #B8860B;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 00px 0px 0px 0px;
+    display: column;
+    font-weight: bolder;
+}
+
+.special-text {
+    color: #8e5f26;
+  }
+  
+  
