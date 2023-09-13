@@ -36,7 +36,7 @@ function Screen() {
   }
 
   const openWhatsApp = () => {
-    window.open('https://api.whatsapp.com/send?phone=55092992032122', '_blank');
+    window.open('https://api.whatsapp.com/send?phone=55092981738708', '_blank');
   };
 
   return (
