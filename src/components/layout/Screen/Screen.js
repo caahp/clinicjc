@@ -15,7 +15,7 @@ function Screen() {
   useEffect(() => {
     const interval = setInterval(() => {
       setBackgroundIndex((prevIndex) => (prevIndex + 1) % imageUrls.length);
-    }, 5000); // Altere o tempo de troca das imagens conforme necessário (em milissegundos)
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
@@ -35,7 +35,6 @@ function Screen() {
     imageClass = 'image-3';
   }
 
-  // Função para abrir o WhatsApp em uma nova guia
   const openWhatsApp = () => {
     window.open('https://api.whatsapp.com/send?phone=55092992032122', '_blank');
   };
