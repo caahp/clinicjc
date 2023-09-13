@@ -31,7 +31,7 @@ function Screen() {
   return (
     <div className="screen" style={backgroundImageStyles}>
       <div className="text">
-        <h1>
+        <h1 className="header-text">
           <strong className="special-text">Com mais de</strong>
           <br />
           <strong className="special-text">40 tratamentos</strong>
@@ -45,12 +45,13 @@ function Screen() {
           bem-estar!
         </h1>
         <button onClick={openWhatsApp} className="whatsapp-button">
-        Agende sua consulta
-        <FontAwesomeIcon icon={faWhatsapp} style={{ marginLeft: '5px' }} />
-      </button>
+          Agende sua consulta
+          <FontAwesomeIcon icon={faWhatsapp} style={{ marginLeft: '5px' }} />
+        </button>
       </div>
     </div>
   );
 }
 
 export default Screen;
+
