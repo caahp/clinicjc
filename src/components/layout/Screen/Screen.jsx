@@ -24,23 +24,12 @@ function Screen() {
     backgroundImage: `url(${imageUrls[backgroundIndex]})`,
   };
 
-  let imageClass = '';
-
-  // Aplicar a classe CSS com base no índice atual
-  if (backgroundIndex === 0) {
-    imageClass = 'image-1';
-  } else if (backgroundIndex === 1) {
-    imageClass = 'image-2';
-  } else if (backgroundIndex === 2) {
-    imageClass = 'image-3';
-  }
-
   const openWhatsApp = () => {
     window.open('https://api.whatsapp.com/send?phone=55092981738708', '_blank');
   };
 
   return (
-    <div className={`screen ${imageClass}`} style={backgroundImageStyles}>
+    <div className="screen" style={backgroundImageStyles}>
       <div className="text">
         <h1>
           <strong className="special-text">Com mais de</strong>
@@ -55,11 +44,11 @@ function Screen() {
           <br />
           bem-estar!
         </h1>
-      </div>
-      <button onClick={openWhatsApp} className="whatsapp-button">
-        agende sua consulta
+        <button onClick={openWhatsApp} className="whatsapp-button">
+        Agende sua consulta
         <FontAwesomeIcon icon={faWhatsapp} style={{ marginLeft: '5px' }} />
       </button>
+      </div>
     </div>
   );
 }
