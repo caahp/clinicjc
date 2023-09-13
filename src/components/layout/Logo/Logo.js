@@ -1,4 +1,4 @@
-import logo from '../../img/jclogo.png';
+import logo from '../../img/jclogo.svg';
 import '../Logo/Logo.css';
 
 function Logo() {

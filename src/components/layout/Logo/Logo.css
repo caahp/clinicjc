@@ -1,12 +1,13 @@
 
 .logo {
     display: flex;
-    width: 115px;
-    height: 115px; 
+    width: 120px;
+    height: 120px; 
     color: #ffffff;
   }
 
 .logo-img {
   margin-right: 10px;
   margin-left: 20px;
+  margin-top: 0px;
 }
