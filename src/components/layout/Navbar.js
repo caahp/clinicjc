@@ -10,6 +10,7 @@ function Logo() {
         {/* <p><strong>Clínica de Estética</strong></p> */}
     </div>
     );
+    
 }
 
 export default Logo;
