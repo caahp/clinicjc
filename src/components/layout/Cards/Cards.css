@@ -7,11 +7,11 @@
   /* Estilize os cartões */
   .cards-group {
     text-align: center;
-    background-color: #f6dfa7;
+    background-color: #b9880f;
   }
   
   .cards-container {
-    background-color: #f6dfa7;
+    background-color: #b9880f;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; /* Para permitir que os cartões quebrem para a próxima linha quando não houver espaço suficiente */
@@ -29,11 +29,10 @@
     overflow: hidden;
     text-decoration: none;
     color: #000;
-    background-size: cover; /* Ajuste o tamanho da imagem dentro do card */
+    background-size: cover; 
     background-position: center;
-  }
-  
-  
+    border-radius: 15px;
+  } 
   
   .card-content {
     position: absolute;
@@ -41,7 +40,7 @@
     left: 0;
     right: 0;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente para o texto */
+    background-color: rgba(255, 255, 255, 0.8);
   }
   
   h2 {
@@ -60,16 +59,15 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efeito de sombra suave ao passar o mouse */
   }
   
-  /* Estilize o título do h1 */
   h1 {
-    color: #8e5f26;
+    color: #ffffff;
     padding-top: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow:
-        -1px -1px 0 rgb(255, 255, 255),
-        1px -1px 0 rgb(255, 255, 255),
-        -1px 1px 0 rgb(255, 255, 255),
-        1px 1px 0 rgb(255, 255, 255);
+        -1px -1px 0 #8e5f26,
+        1px -1px 0 #8e5f26,
+        -1px 1px 0 #8e5f26,
+        1px 1px 0 #8e5f26;
   }
   
   /* Estilize o link de redirecionamento (opcional) */

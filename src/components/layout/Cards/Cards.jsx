@@ -22,6 +22,16 @@ function CardsGroup() {
       title: 'Procedimento 4',
       link: 'link_para_procedimento_4',
     },
+    {
+      imageUrl: 'https://www.clinicahaut.com.br/images/portfolio/corporal-lipocavitacao.jpg',
+      title: 'Procedimento 5',
+      link: 'link_para_procedimento_5',
+    },
+    {
+      imageUrl: 'https://media.istockphoto.com/id/1204160177/pt/foto/hardware-cosmetology-picture-of-happy-young-woman-with-closed-eyes-getting-rf-lifting.jpg?s=612x612&w=0&k=20&c=mWM0y9rRrNO8BmjGRSvdy6e9g7gXEHpRYycJCGuBzIs=',
+      title: 'Procedimento 6',
+      link: 'link_para_procedimento_6',
+    },
     // Adicionar mais cards
   ];
 
