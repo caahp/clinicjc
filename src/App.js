@@ -1,6 +1,7 @@
 import Navbar from './components/layout/Navbar/Navbar'
 import styled from 'styled-components'
 import Screen from './components/layout/Screen/Screen';
+import CardsGroup from './components/layout/Cards/Cards';
 
 const AppContainer = styled.div`
   width: 100vw;
@@ -19,6 +20,7 @@ function App() {
     <AppContainer>
       <Navbar />
       <Screen/>
+      <CardsGroup />
     </AppContainer>
   );
 }
